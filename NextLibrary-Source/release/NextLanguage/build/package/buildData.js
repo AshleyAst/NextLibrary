@@ -6,7 +6,7 @@ function development_build(check) {
            
     console.log("\nDevelopment Release Type:"),
     console.log(
-        fs.readFileSync(__dirname + "\\id\\indevelopment_build.type_xc", "utf8")
+        fs.readFileSync(__dirname + "\\id\\release_build.type_xc", "utf8")
     );
 }
 
@@ -14,14 +14,14 @@ function development_version(check) {
        
     console.log("\nDevelopment Release Version:"),
     console.log(
-        fs.readFileSync(__dirname + "\\id\\versions\\v2.0.1.core_nxa", "utf8")
+        fs.readFileSync(__dirname + "\\id\\versions\\v1.6.core_nxa", "utf8")
     );
 }
 
 function development_type(check) {
        
     console.log("\nDevelopment Product Type:",
-    fs.readFileSync(__dirname + "\\id\\type\\package_library.core_nxa", "utf8"));
+    fs.readFileSync(__dirname + "\\id\\type\\computer_language.core_nxa", "utf8"));
 }
 
 function development_mode(check, set) {
