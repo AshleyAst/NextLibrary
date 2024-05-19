@@ -19,3 +19,6 @@ nightly builds.
 
   3. Having most of the required modules
   to run the other libraries made by Nxium Developments
+
+  4. Upcoming Custom Logging Engine and
+  log protocols to NextLibrary
