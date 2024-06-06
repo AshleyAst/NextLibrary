@@ -1,5 +1,5 @@
 {
-  "name": "nextlibrary",
+  "name": "nextlibrary-unofficial",
   "version": "2.0.1",
   "description": "A full-on Package Library for all of Project Next's Products",
   "main": "app.js",
@@ -26,16 +26,21 @@
   },
   "homepage": "https://github.com/Nxium-Developments/NextLibrary#readme",
   "dependencies": {
+    "chalk": "^5.3.0",
+    "console-input": "^1.0.2",
     "date-and-time": "^3.2.0",
     "download-git-repo": "^3.0.2",
     "electron": "^30.0.2",
+    "express": "^4.19.2",
     "fetch": "^1.1.0",
     "fs": "^0.0.1-security",
     "git": "^0.1.5",
     "log": "^6.3.1",
     "log-node": "^8.0.3",
+    "loopyloop": "^4.0.2",
     "node-fetch": "^3.3.2",
     "path": "^0.12.7",
+    "sound-play": "^1.1.0",
     "url": "^0.11.3"
   }
 }
